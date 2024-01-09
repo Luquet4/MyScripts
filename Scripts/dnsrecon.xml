@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<records>
+    <record domain="gsa1bpmav.com" type="SOA" mname="ns2.wixdns.net" address="216.239.36.100"/>
+    <record domain="gsa1bpmav.com" type="NS" target="ns3.wixdns.net" address="216.239.38.100" recursive="True" Version=""/>
+    <record domain="gsa1bpmav.com" type="NS" target="ns2.wixdns.net" address="216.239.36.100" recursive="True" Version=""/>
+    <record domain="gsa1bpmav.com" type="A" name="gsa1bpmav.com" address="185.230.63.186"/>
+    <record domain="gsa1bpmav.com" type="A" name="gsa1bpmav.com" address="185.230.63.107"/>
+    <record domain="gsa1bpmav.com" type="A" name="gsa1bpmav.com" address="185.230.63.171"/>
+    <scaninfo arguments="/usr/bin/dnsrecon -d gsa1bpmav.com -D /usr/share/wordlists/dnsmap.txt -t std --xml dnsrecon.xml" time="2023-01-20 09:51:43.958155"/>
+    <domain domain_name="gsa1bpmav.com"/>
+</records>
